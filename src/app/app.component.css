@@ -1,0 +1,10 @@
+.bg-color {
+  background: var(--bs-dark);
+  height: 100vh;
+
+}
+
+.header-color {
+  background: var(--bs-dark);
+
+}
