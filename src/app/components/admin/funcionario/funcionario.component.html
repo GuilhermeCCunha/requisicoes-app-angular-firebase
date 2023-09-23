@@ -15,7 +15,7 @@
       </ng-select>
 
     </div>
-    <div class="card-body col-lg-12 col-centered">
+    <div class="card-body table-responsive col-lg-12 col-centered">
       <table class="table table-striped table-hover table-bordered col-centered">
         <thead class="thead-dark">
           <tr>
@@ -59,7 +59,7 @@
 </div>
 
 
-<p-dialog header="Dados do funcionário" [style]="{ width: '80vw' }" [contentStyle]="{'overflow':'visible'}"
+<p-dialog header="Dados do funcionário" [style]="{ width: '80vw' }" [contentStyle]="{'overflow':'auto'}"
   [(visible)]="displayDialogFuncionario" [responsive]="true" [modal]="true">
   <div class="ui-grid ui-grid-responsive ui-fluid" *ngIf="form.value">
     <form [formGroup]="form" class="p-fluid p-formgrid p-grid">
