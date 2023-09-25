@@ -51,7 +51,7 @@
 <app-movimentacao *ngIf="funcionarioLogado" [funcionarioLogado]="funcionarioLogado"></app-movimentacao>
 
 
-<p-dialog header="Dados da Requisição" [style]="{ width: '80vw' }" [contentStyle]="{'overflow':'visible'}"
+<p-dialog header="Dados da Requisição" [style]="{ width: '80vw' }" [contentStyle]="{'overflow': 'auto'}"
   [(visible)]="displayDialogRequisicao" [responsive]="true" [modal]="true">
   <form [formGroup]="form" class="p-fluid p-formgrid p-grid" *ngIf="form.value">
     <div class="p-field p-col-12 p-md-12">
